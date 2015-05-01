@@ -14,7 +14,7 @@ import pandas as pd
 ''' Function or Class '''
 
 ''' Comment '''
-# This is a simple and efficient way to read txt and csv. 
+# This is a simple and efficient way to read txt and csv.
 
 if __name__ == "__main__":
     MapData = np.loadtxt("../Data/mapdata_copyright_openstreetmap_contributors.txt")
