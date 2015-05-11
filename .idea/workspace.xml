@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d736ce2-24d9-41f6-8e14-895abe2236c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSV_Reader/CSV_Reader.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Create_ColorMap/Create_ColorMap.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSV_Reader/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSV_Reader/CSV_Reader.py" afterPath="$PROJECT_DIR$/CSV_Reader/CSV_Reader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test-and-Practice.iws" />
@@ -53,8 +53,8 @@
       <file leaf-file-name="CSV_Reader.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSV_Reader/CSV_Reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87001735" vertical-offset="143" max-vertical-offset="735">
-              <caret line="43" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.8440208" vertical-offset="353" max-vertical-offset="930">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -434,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSV_Reader/CSV_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87001735" vertical-offset="143" max-vertical-offset="735">
-          <caret line="43" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.8440208" vertical-offset="353" max-vertical-offset="930">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding />
         </state>
       </provider>
