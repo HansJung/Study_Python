@@ -19,7 +19,7 @@ class HansCSV:
 
 
     def Reader(self, FileName, Delimiter, Header):
-        with open(FileName, 'rb') as csvfile:
+        with open(FileName, 'rU') as csvfile:
             CSVReader = csv.reader(csvfile, delimiter = Delimiter)
             if Header:
                 Header = CSVReader.next()

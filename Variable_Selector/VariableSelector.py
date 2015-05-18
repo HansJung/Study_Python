@@ -37,7 +37,7 @@ class VariableSelector:
 if __name__ == "__main__":
     a = np.array([10,20,30,40,50])
     # a = a.reshape(5,5)
-    Ch = [0,2,3]
+    Ch = [3,2,0]
     var = VariableSelector(a, Ch)
     print var.ArraySelector()
 

@@ -9,8 +9,8 @@ Comment
 '''
 
 ''' Library '''
-import pandas as pd
 import numpy as np
+from scipy.stats import f
 
 ''' Function or Class '''
 
@@ -21,15 +21,7 @@ class Example:
 
 
 if __name__ == "__main__":
-    a = np.array([10,20,30,40,50]*5)
-    a = a.reshape(5,5)
+    DoF1 = 10
+    DoF2 = 20
 
-    print a
-
-    Chooser = [1,2,4]
-    Selector = np.zeros((len(Chooser), len(a)))
-
-    for idx, chooser in enumerate(Chooser):
-        Selector[idx][chooser] = 1
-
-    print np.dot(np.dot(Selector, a), Selector.T)
+    print f.ppf(0.90, DoF1, DoF2)
