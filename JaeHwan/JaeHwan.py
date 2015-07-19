@@ -45,9 +45,11 @@ if __name__ == "__main__":
     for lat, long in zip(Lat,Long):
         IterIdx += 1
         signal.alarm(5)
+
         try:
             JHURL =  JaeHwanURL(lat,long)
             A = json.loads(urllib.urlopen(JHURL).read())
+            print A
             for idx, val in enumerate(A['results']):
                 JHPingPong = val['formatted_address']
                 print IterIdx,"|", JHPingPong
